@@ -1,0 +1,478 @@
+@font-face {
+    font-family: 'Sequel100Black-75';
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Fonts/sequel-100-black-75.ttf");
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 2px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(192, 191, 191);
+    border: 0px;
+    border-radius: 50px;
+}
+
+
+
+.intro{
+    background: url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Images/sports-shoe-pair-design-illustration-generated-by-ai-removebg-preview-transformed.png");
+    background-color: black;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: 200vw;
+    background-position: 50% 70%;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navcnt{
+    display: flex;
+    width: 100vw;
+}
+
+.logo{
+    color: #FFF;
+    text-align: center;
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 2vw;
+}
+
+.ulst{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 2vw;
+}
+
+.lst{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0vw 4vw;
+    list-style-type: none;
+}
+
+.intxt{
+    display: grid;
+}
+
+.bgtxt{
+    margin: 10vw 0vw 0vw 24vw;
+    align-self: center;
+}
+
+.wre{
+    color: #FFF;
+    font-family: Sequel100Black-75;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 3.2px;
+    margin: 0;
+}
+
+.trd{
+    color: #FFF;
+    font-family: Sequel100Black-75;
+    font-size: 3.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    margin: 0;
+
+}
+
+.mts{
+    text-align: right;
+    width: 28vw;
+}
+
+.trnd{
+    text-align: right;
+    width: 42vw;
+}
+
+.ptxt{
+    display: flex;
+    height: max-content;
+}
+
+.pptxt{
+    color: #FFF;
+    text-align: center;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.76px;
+    width: 28vw;
+    margin: 3vw 0 0 6vw;
+}
+
+.lnkh{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.nvlnk{
+    position: absolute;
+    bottom: 8vw;
+    right: 8vw;
+    justify-self: right;
+
+}
+
+.srcrl{
+    margin: 5vw 0 0 0vw;
+    justify-self: center;
+    align-self: baseline;
+}
+
+
+.coh{
+    width: 100vw;
+    height: 100vh;
+}
+
+.ovrd{
+    display: flex;
+    width: 100vw;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.puma{
+    background: #254564;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.haf{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 6.24px;
+    margin: 4vw;
+}
+
+.puyt{
+    position: relative;
+    height: 31vw;
+    margin: auto;
+}
+
+.pnms{
+    color: #ffffff00;
+    -webkit-text-stroke: 2px #000;
+    text-align: center;
+    font-family: My Puma;
+    font-size: 22vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.puimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-11.664deg);
+    width: 32vw;
+    filter: drop-shadow(6px 60px 50px #000000af);
+}
+
+.psvg{
+    position: absolute;
+    top: 58%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.slvh{
+    position: absolute;
+    margin: 0vw 4vw;
+    transform: translatey(-50%);
+
+}
+
+.f1{
+    top: 50%;
+}
+
+.f2{
+    top: 50%;
+    right: 0;
+}
+
+.expr{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate( -50%);
+    margin: 4vw 0vw;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    transition: 0.3s;
+}
+
+
+
+
+.adidas{
+    background: #7E1C1D;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.adsfg{
+    width: 46vw;
+    transform: translate(-50%, -50%) rotate(-54.705deg);
+    left: 48%;
+}
+
+.ads{
+    top: 45%;
+    text-align: center;
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 18vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ajhg{
+    top: 50%;
+    left: 50%;
+}
+
+.adp{
+    text-align: center;
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rr{
+    -webkit-text-stroke: 2px #000;
+    color: #00000000;
+}
+
+.ert{
+    position: relative;
+    bottom: 2vw;
+}
+
+
+
+.nike{
+    background: #3D3D3D;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.nsus{
+    width: 66vw;
+    transform: translate(-50%, -50%) rotate(-20.71deg);
+}
+
+.nke{
+    text-align: center;
+    font-family: Haettenschweiler;
+    font-size: 38vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 47%;
+    top: 40%;
+}
+
+.nre{
+    left: 48%;
+    top: 48%;
+}
+
+.nkio{
+    text-align: center;
+    font-family: Haettenschweiler;
+    font-size: 12vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.about{
+    background: #14774E;
+    width: 100vw;
+    height: 100vh;
+    padding: 2vw 0vw 0vw 0vw;
+}
+.cabon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 80vw;
+}
+.abu{
+    text-align: left;
+}
+.abtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 18vw;
+    height: 5vw;
+    border: 2px solid #000;
+    margin: 5vw 10vw;
+    padding: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    transition: 0.3s;
+}
+
+.abtn:hover{
+    background: #000;
+
+}
+
+.sabt{
+    margin: 0vw 1vw;
+}
+
+
+.contact{
+    display: grid;
+    background: linear-gradient(#0000009a,#0000009a), url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Images/sneakers-on-dark-gray-concrete-background-texture-of-the-old-dark-stone-or-broken-brick-the.png") ;
+    background-color: black;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 65vh;
+    padding: 2vw 0vw 0vw 0vw;
+
+}
+.concocn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+#email{
+    color: #fff;
+    font-family: poppins;
+    justify-self: center;
+    align-self: center;
+    padding: 1vw;
+    width: 40vw;
+    height: 2vw;
+    background: #00000000;
+    outline: none;
+    border: 2px solid #fff;
+}
+#email:focus{
+    color: #000000;
+    background: #fff;
+    border: 2px solid #000000;
+
+}
+.consg{
+    display: grid;
+    place-items: center;
+    height: 4vw;
+    width: 4vw;
+    border: 0px;
+
+}
+.consg:hover{
+    border: 2px solid #fff;
+
+}
+.footer{
+    padding: 2vw;
+    background: #0E0E0E;
+    height: 33vh;
+    position: relative;
+}
+
+.fpp{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    text-align: center;
+    
+}
+
+.flkn{
+    font-family: poppins;
+    display: grid;
+    margin: 2vw;
+    align-items: center;
+}
+
+
+
+
