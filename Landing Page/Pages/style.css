@@ -1,9 +1,18 @@
 @font-face {
     font-family: 'Sequel100Black-75';
-    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Fonts/sequel-100-black-75.ttf");
+    src: url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Fonts/sequel-100-black-75.ttf");
 }
-
-
+@font-face {
+    font-family: 'My Puma';
+    src: url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Fonts/mypuma/MYPUMA__.TTF");
+}@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Fonts/ITC Avant Garde Gothic Std Demi/ITC Avant Garde Gothic Std Demi/ITC Avant Garde Gothic Std Demi.otf");
+}
+@font-face {
+    font-family: 'Haettenschweiler';
+    src: url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Fonts/haettenschweiler/Haettenschweiler.ttf");
+}
 html{
     scroll-behavior: smooth;
 }
@@ -30,7 +39,7 @@ body{
 
 
 .intro{
-    background: url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Images/sports-shoe-pair-design-illustration-generated-by-ai-removebg-preview-transformed.png");
+    background: url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Images/sports-shoe-pair-design-illustration-generated-by-ai-removebg-preview-transformed.png");
     background-color: black;
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
@@ -402,7 +411,7 @@ body{
 
 .contact{
     display: grid;
-    background: linear-gradient(#0000009a,#0000009a), url("C:/Users/admin/OneDrive/Documents/Personal Projects/Certificate projects/Codsoft/Landing Page/Assets/Images/sneakers-on-dark-gray-concrete-background-texture-of-the-old-dark-stone-or-broken-brick-the.png") ;
+    background: linear-gradient(#0000009a,#0000009a), url("https://chethan025.github.io/CODSOFT/Landing Page/Assets/Images/sneakers-on-dark-gray-concrete-background-texture-of-the-old-dark-stone-or-broken-brick-the.png") ;
     background-color: black;
     background-blend-mode: luminosity;
     background-size: cover;
